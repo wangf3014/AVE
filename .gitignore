@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.DS_Store
+.vscode*
+
+# model weights
+Wan2.2-I2V-A14B/
+
+# outputs
+outputs/
+video_edit_workdir*/
+*.mp4
+!assets/*.mp4
+
+# secrets
+.env
